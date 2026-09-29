@@ -266,8 +266,97 @@ print ("O valor do salario com o aumento é :" ,a3)
 
 #tarefa24
 
+'''
+
 a1 = int(input("Qual é o preço do produto? "))
 a2 = a1 * 0.15
 a3 = a1 - a2
 print("O valor do desconto é ",a2)
 print("O valor final é ", a3)
+
+
+'''
+
+#tarefa25
+
+'''
+
+a1 = int(input("O valor total da compra "))
+a2 = int(input("Quantidade de parcela "))
+a3 = a1 / a2
+print("O valor de cada parcela :",a3)
+
+'''
+
+#tarefa26 
+
+'''
+
+a1 = int(input("Quantidade de quilogramas: "))
+a2 = float(input("Altura em metros: "))
+
+a3 = a2 ** 2
+a4 = a1 / a3
+
+print(f"IMC: {a4:.2f}")
+
+'''
+
+#tarefa27
+
+'''
+
+a1 = int(input("Nota 1 : "))
+a2 = int(input("Nota 2 : "))
+a3 = (a1 * 2 + a2 * 3)
+a4 = a3 / 5
+print ("Media ponderada : ",a4)
+
+'''
+
+#tarefa28 
+
+'''
+
+a1 = int(input("Um numero inteiro"))
+a2 = int(input("Outro numero inteiro"))
+a3 = a1 // a2
+a4 = a1 % a2
+print("Quociente:", a3)
+print("Resto:", a4)
+
+'''
+#tarefa29
+
+'''
+
+a1 = int(input("Informe um numero inteiro "))
+a2 = a1 - 1
+a3 = a1 + 1
+
+print("Antecessor : ",a2)
+print("Sucessor : ",a3)
+
+'''
+
+#tarefa30
+
+'''
+
+a1 = int(input("Uma base "))
+a2 = int(input("Um expoente "))
+a3 = a1 ** a2
+print("Resultado : ",a3)
+
+'''
+
+#tarefa31
+
+a1 = int(input("Informe um numero "))
+if a1 > 0:
+    print("Positivo")
+elif a1 < 0:
+    print("Negativo")
+else:
+    print("Zero")
+    
